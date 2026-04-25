@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gukanti Bhavna | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #0d0a1a;
+            color: #fff;
+        }
+
+        /* Navbar */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 10%;
+            background: #140f2d;
+            position: sticky;
+            top: 0;
+        }
+
+        nav h2 {
+            color: #b388ff;
+        }
+
+        nav a {
+            color: #fff;
+            margin-left: 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #b388ff;
+        }
+
+        /* Hero */
+        .hero {
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            color: #b388ff;
+        }
+
+        .hero p {
+            margin-top: 10px;
+            color: #ccc;
+        }
+
+        /* Sections */
+        section {
+            padding: 80px 10%;
+            text-align: center;
+        }
+
+        h2 {
+            color: #b388ff;
+            margin-bottom: 20px;
+        }
+
+        /* Skills */
+        .skills span {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            border: 1px solid #6a5acd;
+            border-radius: 20px;
+        }
+
+        /* Projects */
+        .project {
+            border: 1px solid #6a5acd;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .project a {
+            display: inline-block;
+            margin: 10px;
+            color: #b388ff;
+        }
+
+        /* Contact */
+        form {
+            max-width: 400px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        input, textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: none;
+            background: #1a1535;
+            color: #fff;
+        }
+
+        button {
+            padding: 10px;
+            background: #b388ff;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Footer */
+        footer {
+            padding: 20px;
+            background: #140f2d;
+            text-align: center;
+        }
+
+        footer a {
+            color: #b388ff;
+            margin: 0 10px;
+        }
+    </style>
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <h2>Bhavna</h2>
+    <div>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<!-- Hero -->
+<section id="home" class="hero">
+    <h1>Gukanti Bhavna</h1>
+    <p>IT Student | Web Developer</p>
+</section>
+
+<!-- About -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a first-year IT student passionate about problem solving and web development.
+        I enjoy building projects and continuously improving my skills through hands-on learning.
+    </p>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>C</span>
+        <span>C++</span>
+        <span>HTML</span>
+        <span>Git</span>
+        <span>VS Code</span>
+    </div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Clothing Brand Website</h3>
+        <p>
+            A dark-themed clothing brand website created as part of a deployment demonstration,
+            focusing on clean UI and modern design.
+        </p>
+        <a href="https://gukantibhavna-0.github.io/page-demo/" target="_blank">Live Demo</a>
+        <a href="https://github.com/gukantibhavna-0" target="_blank">GitHub</a>
+    </div>
+
+</section>
+
+<!-- Experience -->
+<section id="experience">
+    <h2>Learning Journey</h2>
+    <p>
+        I am currently learning Data Structures using C++ and improving my problem-solving skills
+        by participating in workshops and solving problems on LeetCode.
+    </p>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+    <h2>Contact</h2>
+
+    <form onsubmit="alert('Message sent! (Demo)'); return false;">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Gukanti Bhavna</p>
+    <div>
+        <a href="https://github.com/gukantibhavna-0" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/bhavna-gukanti-b989b539b/" target="_blank">LinkedIn</a>
+        <a href="https://leetcode.com/u/Bhavna_gukanti/" target="_blank">LeetCode</a>
+    </div>
+</footer>
+
+</body>
+</html>
